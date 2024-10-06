@@ -16,6 +16,16 @@ html, body {
   overflow-x: hidden; /* Empêche le débordement horizontal */
 }
 
+h1{
+  font-size: 9vw;
+}
+h2{
+  font-size: 3vw;
+}
+p{
+  font-size: 2vw;
+}
+
 #app {
   height: 100%;
   width: 100%;
