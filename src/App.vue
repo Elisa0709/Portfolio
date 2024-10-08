@@ -22,9 +22,7 @@ h1{
 h2{
   font-size: 3vw;
 }
-p{
-  font-size: 2vw;
-}
+
 
 #app {
   height: 100%;
