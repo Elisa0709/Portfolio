@@ -10,12 +10,25 @@ export default {
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-4 image-center-mobile">
           <!--        ////////////////changer la photo/////////////////////////-->
-          <img src="/images/profil.webp" class="d-block mx-lg-auto img-fluid image-center-mobile" alt="Photo Elisa Leroy" width="700" height="500" loading="lazy">
+          <img src="/images/profil.webp" class="d-block mx-lg-auto img-fluid image-center-mobile"
+               alt="Photo Elisa Leroy" width="700" height="500" loading="lazy">
         </div>
         <div class="col-lg-8">
-          <h1 class="display-5 text-white lh-1 mb-0 h1-mobile mb-4">Qui suis-je ?</h1>
+          <h1 class="display-5 text-white lh-1 mb-0 h1-mobile mb-4 ">Qui suis-je ?</h1>
           <!--        ////////////////changer le texte/////////////////////////-->
-          <p class="text-white text-justify fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consectetur dolor earum, eius enim explicabo, incidunt inventore laborum molestiae nam nihil nostrum praesentium quas repudiandae saepe suscipit tempora vel voluptate! Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+          <p class="text-white  text-justify">J'ai entrepris, en avril 2024, une reconversion professionnelle dans
+            le but de me former au titre de Concepteur, Développeur d'Applications au Campus Numérique in the Alps de
+            Grenoble.<br>
+            Apprendre auprès de ce centre de formation me permet d'acquérir de solides compétences et la capacité à
+            m'adapter à différentes technologies.
+            Dans le but d'approfondir mon apprentissage et de mettre à profit mes compétences déjà acquises, je
+            recherche un contrat d'apprentissage d'une durée de 12 mois à partir du début d'année 2025. À raison de 2
+            semaines au campus puis 2 semaines en entreprise, ce rythme évoluera en augmentant le temps passé en
+            entreprise.<br>
+            Forte de mes expériences, je possède de nombreuses qualités. Aussi à l'aise en équipe qu'en autonomie, je
+            m'efforce de cultiver la communication, la bienveillance et l'esprit d'équipe tout en appliquant une
+            méthodologie rigoureuse et organisée.<br>
+            Je serais ravie de vous démontrer ma motivation et mon sérieux lors d'un entretien.</p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
             <div class="rounded-4 p-2 mt-3 me-2 d-flex justify-content-center align-items-center soft-skills">
               <p class="text-center mb-0 fw-bold">Investie</p>
@@ -40,25 +53,32 @@ export default {
 h1, h2, p {
   font-family: "Titillium Web", sans-serif;
 }
+p{
+ font-size: 110%;
+}
 
-.bgGrey{
+.bgGrey {
   background-color: #0f0817;
 }
-.text-justify{
+
+.text-justify {
   text-align: justify;
 }
+
 .soft-skills {
   width: 100%;
   background-color: rgba(253, 231, 238, 0.74);
 }
+
 @media (max-width: 768px) {
   .image-center-mobile {
     margin: auto;
   }
-  .h1-mobile{
-    font-size: 5vh ;
+
+  .h1-mobile {
+    font-size: 5vh;
     text-align: center;
-    margin-top:  3%;
+    margin-top: 3%;
 
   }
 }
