@@ -14,8 +14,8 @@ export default {
                alt="Photo Elisa Leroy" width="700" height="500" loading="lazy">
         </div>
         <div class="col-lg-8">
+
           <h1 class="display-5 text-white lh-1 mb-0 h1-mobile mb-4 ">Qui suis-je ?</h1>
-          <!--        ////////////////changer le texte/////////////////////////-->
           <p class="text-white  text-justify">J'ai entrepris, en avril 2024, une reconversion professionnelle dans
             le but de me former au titre de Concepteur, Développeur d'Applications au Campus Numérique in the Alps de
             Grenoble.<br>
@@ -34,7 +34,7 @@ export default {
               <p class="text-center mb-0 fw-bold">Investie</p>
             </div>
             <div class="rounded-4 p-2 mt-3 me-2 d-flex justify-content-center align-items-center soft-skills">
-              <p class="text-center mb-0 fw-bold">Rigoureuse</p>
+              <p class="text-center mb-0 fw-bold">Polyvalente</p>
             </div>
             <div class="rounded-4 p-2 mt-3 me-2 d-flex justify-content-center align-items-center soft-skills">
               <p class="text-center mb-0 fw-bold">Bienveillante</p>
