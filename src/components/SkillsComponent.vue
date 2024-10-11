@@ -122,7 +122,7 @@ export default {
           </div>
 
           <!-- Quatrième  ligne -->
-          <div><h2 class="text-center text-white mb-5 mt-5 fw-lighter">Gestionnaire de code & Software</h2></div>
+          <div><h2 class="text-center text-white mb-5 mt-5 fw-lighter">Gestionnaires de code & Software</h2></div>
           <div class="row g-0">
             <div class="col-12 col-md-2 bg-">
               <div class="emptyDiv"></div> <!-- Div vide -->
