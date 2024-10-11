@@ -81,7 +81,19 @@ h3 {
 /* Smartphone */
 @media (max-width: 768px) {
   .icon {
-    width: 3vh; /* Taille des icônes pour les appareils mobiles */
+    width: 4.5vh; /* Taille des icônes pour les appareils mobiles */
+  }
+  h3 {
+    font-size: 4vw;
+    font-weight: lighter;
+    margin-top: 7px;
+  }
+  h1 {
+    font-size: 16vw;
+    font-weight: lighter;
+  }
+  h2 {
+    font-size: 7vw;
   }
 }
 
