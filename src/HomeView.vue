@@ -3,6 +3,7 @@
 import HeroComponent from "./components/HeroComponent.vue";
 import AboutComponent from "./components/AboutComponent.vue";
 import SkillsComponent from "./components/SkillsComponent.vue";
+import ProjectsComponent from "./components/ProjectsComponent.vue";
 </script>
 
 
@@ -12,6 +13,7 @@ import SkillsComponent from "./components/SkillsComponent.vue";
   <HeroComponent/>
   <AboutComponent/>
   <SkillsComponent/>
+  <ProjectsComponent/>
   <div class="div-bottom ">
 
   </div>

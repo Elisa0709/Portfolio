@@ -2,16 +2,12 @@
 export default {
   name: "HeroComponent",
   methods: {
-    scrollToTest() {
+    scrollToId(id) {
       // Si l'élément avec l'ID 'test' est dans un autre composant monté, on peut y accéder directement avec document
-      const section = document.getElementById('test');
+      const section = document.getElementById(id);
       if (section) {
         section.scrollIntoView({behavior: 'smooth'});
       }
-      // <button @click = "scrollToTest" > Test
-      // de
-      // défilment < /button>
-
     }
   }
 }
@@ -57,10 +53,10 @@ export default {
   <div class="row justify-content-center d-none d-sm-block pt-4 pb-4">
     <div class="col-12 d-flex justify-content-center align-items-center">
       <div class=" d-flex justify-content-between ">
-        <button class=" mx-2 shadow-sm"><span class="fs-4">À propos</span></button>
-        <button class=" mx-2 shadow-sm"><span class="fs-4">Compétences</span></button>
-        <button class=" mx-2 shadow-sm"><span class="fs-4">Projets</span></button>
-        <button class=" mx-2 shadow-sm"><span class="fs-4">Contact</span></button>
+        <button @click = "scrollToId('about')" class=" mx-2 shadow-sm"><span class="fs-4">À propos</span></button>
+        <button @click = "scrollToId('skills')" class=" mx-2 shadow-sm"><span class="fs-4">Compétences</span></button>
+        <button @click = "scrollToId('projects')" class=" mx-2 shadow-sm"><span class="fs-4">Projets</span></button>
+        <button @click = "scrollToId()" class=" mx-2 shadow-sm"><span class="fs-4">Contact</span></button>
       </div>
     </div>
   </div>

@@ -11,7 +11,7 @@ export default {
 </script>
 
 <template>
-  <div class="bgPurple">
+  <div class="bgPurple" id="skills">
     <div class="container mb-5 d-flex justify-content-center align-items-center flex-column">
       <h1 class="display-5 lh-1 mb-0 h1-mobile mb-4 text-white pt-5">Compétences</h1>
       <div class="border-opacity-25 line"></div>
@@ -249,7 +249,7 @@ h4 {
 }
 
 .bgPurple {
-  background-color: #250839;
+  background-color: rgba(37, 8, 57, 0.74);
 }
 
 .line {
