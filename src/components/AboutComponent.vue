@@ -15,8 +15,8 @@ export default {
         </div>
         <div class="col-lg-8">
 
-          <h1 class="display-5 text-white lh-1 mb-0 h1-mobile mb-4 ">Qui suis-je ?</h1>
-          <p class="text-white  text-justify">J'ai entrepris, en avril 2024, une reconversion professionnelle dans
+          <h1 class="display-5 lh-1 mb-0 h1-mobile mb-4 ">Qui suis-je ?</h1>
+          <p class="text-justify">J'ai entrepris, en avril 2024, une reconversion professionnelle dans
             le but de me former au titre de Concepteur, Développeur d'Applications au Campus Numérique in the Alps de
             Grenoble.<br>
             Apprendre auprès de ce centre de formation me permet d'acquérir de solides compétences et la capacité à
@@ -56,18 +56,13 @@ h1, h2, p {
 p{
  font-size: 110%;
 }
-
-.bgGrey {
-  background-color: #0f0817;
-}
-
 .text-justify {
   text-align: justify;
 }
 
 .soft-skills {
   width: 100%;
-  background-color: rgba(253, 231, 238, 0.74);
+  background-color: rgba(82, 53, 131, 0.25);
 }
 
 @media (max-width: 768px) {

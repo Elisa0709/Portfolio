@@ -16,6 +16,12 @@ export default {
     <div class="container mt-4  ">
       <div class="row">
         <div class="col-12">
+
+
+<!--          Ajouter des padding pour espacer les lignes + du hoover sur les div des icones ou sur la div de la sous partie en entier -->
+<!--          Enlever le grand titre et mettre chaque sous titres et ses div avec une border claire pour séparer les espaces ?-->
+
+
           <!-- Première ligne -->
           <div><h2 class="text-center text-white mb-5 mt-5 fw-lighter">Langages & frameworks</h2></div>
           <div class="row g-0 mb-4">
@@ -151,7 +157,7 @@ export default {
                 <h4 class="card-title">suite Jet Brains</h4>
               </div>
             </div>
-            <div class="col-12 col-md-2  ">
+            <div class="col-12 col-md-2 " id="test">
               <div class="emptyDiv"></div> <!-- Div vide -->
             </div>
           </div>
