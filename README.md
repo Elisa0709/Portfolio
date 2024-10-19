@@ -1,5 +1,23 @@
-# Vue 3 + Vite
+# 💼 My Portfolio
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+ _____________________________
+ /!\ This project is in progress /!\ 
+ _____________________________
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Welcome to the GitHub repository of my portfolio! 🎨✨  
+
+This project showcases my skills, projects, and learning journey as a Application developper student.  
+
+## 🌐 Live 
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-FF69B4?style=for-the-badge)](https://elisaleroy.com)
+
+## 📁 Project Overview
+
+This portfolio is built using:  
+
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)   ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)   ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)   ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)   ![VueJS](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)  
+
+  ## ⚙️ Preview
+  ![image](https://github.com/user-attachments/assets/94332e43-e8e2-4004-abb1-f1dc3465a0e0)
+
+
