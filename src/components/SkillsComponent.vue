@@ -252,7 +252,7 @@ h4 {
 }
 
 .bgPurple {
-  background-color: rgba(37, 8, 57, 0.74);
+  background-color: rgb(37, 8, 57);
 }
 
 .line {

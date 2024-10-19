@@ -35,18 +35,8 @@ img{
 }
 
 @media (max-width: 768px) {
-  .fixed-icon {
-    position: fixed;
-    bottom: 7px;
-    right: 7px;
-    background: none;
-    border: none;
-    z-index: 1000;
-  }
-  img{
-    width:50px;
-    height:50px;
-  }
-
+.fixed-icon{
+  display:none;
+}
 }
 </style>
