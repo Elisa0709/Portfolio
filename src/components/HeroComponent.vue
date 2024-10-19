@@ -15,7 +15,7 @@ export default {
 </script>
 
 <template>
-  <div class="video-container">
+  <div class="video-container" id="hero">
     <!-- Vidéo de fond -->
     <video autoplay muted loop class="video-background">
       <source src="/video/heroVideo.mp4" type="video/mp4"/>
@@ -24,11 +24,7 @@ export default {
 
     <div class=" h-100 d-flex align-items-center">
       <div class="row w-100 justify-content-center">
-
-        <!-- Colonne 1 : Vide -->
         <div class="col-lg-1 col-md-0"></div>
-
-        <!-- Colonne 2-3 : Titres et logos -->
         <div class="row h-100 justify-content-center align-items-center">
           <div class="d-flex flex-column justify-content-center text-center">
             <h1 class="text-white text-center">Elisa Leroy</h1>
@@ -50,7 +46,7 @@ export default {
       </div>
     </div>
   </div>
-  <div class="row justify-content-center d-none d-sm-block pt-4 pb-4">
+  <div class="row justify-content-center d-none d-sm-block pt-4 pb-4" id="navBarre">
     <div class="col-12 d-flex justify-content-center align-items-center">
       <div class=" d-flex justify-content-between ">
         <button @click = "scrollToId('about')" class=" mx-2 shadow-sm"><span class="fs-4">À propos</span></button>
@@ -108,7 +104,7 @@ h3 {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  z-index: -1; /*idéo derrière le contenu */
+  z-index: -1;
 }
 
 
@@ -141,6 +137,7 @@ button:active {
     width: 4.5vh;
   }
 
+
   h3 {
     font-size: 4vw;
     font-weight: lighter;
@@ -148,12 +145,18 @@ button:active {
   }
 
   h1 {
-    font-size: 16vw;
+    font-size: 14vw;
     font-weight: lighter;
   }
 
   h2 {
-    font-size: 7vw;
+    font-size: 6vw;
+  }
+  .video-container {
+    position: relative;
+    height: 50vh;
+    width: 100vw;
+    overflow: hidden;
   }
 }
 

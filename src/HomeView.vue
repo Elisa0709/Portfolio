@@ -4,6 +4,7 @@ import HeroComponent from "./components/HeroComponent.vue";
 import AboutComponent from "./components/AboutComponent.vue";
 import SkillsComponent from "./components/SkillsComponent.vue";
 import ProjectsComponent from "./components/ProjectsComponent.vue";
+import UpComponent from "./components/UpComponent.vue";
 </script>
 
 
@@ -11,6 +12,7 @@ import ProjectsComponent from "./components/ProjectsComponent.vue";
 <template>
 <!--  enlever le hoover du titre en affichage smartphone -->
   <HeroComponent/>
+  <UpComponent/>
   <AboutComponent/>
   <SkillsComponent/>
   <ProjectsComponent/>
