@@ -41,6 +41,11 @@ export default {
     </div>
   </div>
 
+
+<!--  Forte de mes expériences, je possède de nombreuses qualités. Aussi à l'aise en équipe qu'en autonomie, je-->
+<!--  m'efforce de cultiver la communication, la bienveillance et l'esprit d'équipe tout en appliquant une-->
+<!--  méthodologie rigoureuse et organisée.-->
+
 </template>
 
 <style scoped>
