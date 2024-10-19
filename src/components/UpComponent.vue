@@ -15,7 +15,7 @@ export default {
 
 <template>
   <button class="fixed-icon" @click = "scrollToId('navBarre')">
-    <img  src="/images/upIcon.webp" alt="circled-chevron-up"/>
+    <img src="/icons/upIcon.webp" alt="circled-chevron-up"/>
   </button>
 
 </template>

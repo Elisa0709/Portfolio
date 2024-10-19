@@ -64,7 +64,7 @@ export default {
             mois à partir du début d'année 2025.</p>
         </div>
         <div class="col-12 col-md-4 order-md-2 order-1">
-          <img src="/images/logo_campusnum_fond-blanc-1024x1024.webp"
+          <img src="/icons/logo_campusnum_fond-blanc-1024x1024.webp"
                class="d-block mx-lg-auto img-fluid image-center-mobile rounded-4 mobile-img"
                alt="Logo Campus Numérique" loading="lazy">
         </div>

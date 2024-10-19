@@ -91,7 +91,7 @@ export default {
               </div>
               <div class="col-6 col-md-2">
                 <div class="bgGrey text-center mb-2">
-                  <img width="96" height="96" src="/images/iconLaravel.webp" alt="icon laravel"/>
+                  <img width="96" height="96" src="/icons/iconLaravel.webp" alt="icon laravel"/>
                   <h4 class="card-title">Laravel</h4>
                 </div>
               </div>
@@ -206,7 +206,7 @@ export default {
         </div>
         <div class="col-6 col-md-2">
           <div class="bgGrey text-center">
-            <img width="96" height="96" src="/images/iconGitHub.webp" alt="github"/>
+            <img width="96" height="96" src="/icons/iconGitHub.webp" alt="github"/>
             <h4 class="card-title">Github</h4>
           </div>
         </div>
@@ -219,7 +219,7 @@ export default {
         </div>
         <div class="col-6 col-md-2">
           <div class="bgGrey text-center">
-            <img width="96" height="96" src="/images/iconJetBrains.webp" alt="visual-studio-code-2019"/>
+            <img width="96" height="96" src="/icons/iconJetBrains.webp" alt="visual-studio-code-2019"/>
             <h4 class="card-title">suite Jet Brains</h4>
           </div>
         </div>
