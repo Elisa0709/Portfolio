@@ -17,7 +17,6 @@ import MenuComponent from "./components/MenuComponent.vue";
   <UpComponent/>
   <AboutComponent/>
   <SkillsComponent/>
-  <ProjectsComponent/>
   <div class="div-bottom ">
 
   </div>
