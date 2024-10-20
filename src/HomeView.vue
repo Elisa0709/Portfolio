@@ -21,6 +21,7 @@ import PersonnalityComponent from "./components/PersonnalityComponent.vue";
   <SoftSkills/>
   <SkillsComponent/>
   <PersonnalityComponent/>
+  <ProjectsComponent/>
   <div class="div-bottom ">
 
   </div>
@@ -32,6 +33,5 @@ import PersonnalityComponent from "./components/PersonnalityComponent.vue";
 .div-bottom{
   margin: 0;
   height:10vh;
-  background-color: #0f0817;
 }
 </style>
