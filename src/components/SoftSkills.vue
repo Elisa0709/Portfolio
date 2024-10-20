@@ -6,50 +6,43 @@ export default {
 
 <template>
   <div class="">
-    <div class="bgGrey p-4">
+    <div class="bgPurple pt-4 pb-4 ">
       <!-- Première ligne centrée -->
-      <div class="row justify-content-center">
+      <div class="row justify-content-center pt-2 mb-2">
         <div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
-          <img src="#" alt="Logo 1" class="img-fluid" style="max-height: 50px;">
-          <p class="ms-2 text-light">Investie</p>
+          <p class="ms-2 text-light fs-4">Investie</p>
         </div>
         <div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
-          <img src="#" alt="Logo 2" class="img-fluid" style="max-height: 50px;">
-          <p class="ms-2 text-light">Polyvalente</p>
+          <p class="ms-2 text-light fs-4">Polyvalente</p>
         </div>
         <div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
-          <img src="#" alt="Logo 3" class="img-fluid" style="max-height: 50px;">
-          <p class="ms-2 text-light">Esprit d'équipe</p>
+          <p class="ms-2 text-light fs-4">Esprit d'équipe</p>
         </div>
       </div>
 
       <!-- Deuxième ligne centrée -->
       <div class="row justify-content-center ">
         <div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
-          <img src="#" alt="Logo 5" class="img-fluid" style="max-height: 50px;">
-          <p class="ms-2 text-light">Rigoureuse</p>
+          <p class="ms-2 text-light fs-4">Rigoureuse</p>
         </div>
         <div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
-          <img src="#" alt="Logo 6" class="img-fluid" style="max-height: 50px;">
-          <p class="ms-2 text-light">Bienveillante et empathique</p>
+          <p class="ms-2 text-light fs-4">Bienveillante et empathique</p>
         </div>
         <div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
-          <img src="#" alt="Logo 7" class="img-fluid" style="max-height: 50px;">
-          <p class="ms-2 text-light">Curieuse</p>
+          <p class="ms-2 text-light fs-4">Curieuse</p>
         </div>
       </div>
     </div>
   </div>
 
 
-<!--  Forte de mes expériences, je possède de nombreuses qualités. Aussi à l'aise en équipe qu'en autonomie, je-->
-<!--  m'efforce de cultiver la communication, la bienveillance et l'esprit d'équipe tout en appliquant une-->
-<!--  méthodologie rigoureuse et organisée.-->
+
 
 </template>
 
 <style scoped>
-.bgGrey{
-  background-color: #2a2e36;
+.bgPurple{
+  background-color: rgba(37, 8, 57, 0.74);
 }
+
 </style>

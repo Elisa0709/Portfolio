@@ -6,6 +6,8 @@ import SkillsComponent from "./components/SkillsComponent.vue";
 import ProjectsComponent from "./components/ProjectsComponent.vue";
 import UpComponent from "./components/UpComponent.vue";
 import MenuComponent from "./components/MenuComponent.vue";
+import SoftSkills from "./components/SoftSkills.vue";
+import PersonnalityComponent from "./components/PersonnalityComponent.vue";
 </script>
 
 
@@ -16,7 +18,9 @@ import MenuComponent from "./components/MenuComponent.vue";
   <MenuComponent/>
   <UpComponent/>
   <AboutComponent/>
+  <SoftSkills/>
   <SkillsComponent/>
+  <PersonnalityComponent/>
   <div class="div-bottom ">
 
   </div>
