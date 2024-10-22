@@ -7,20 +7,23 @@ name: "TrainingComponent"
 <template>
 
   <div class="bgPurple pt-4 pb-4 mt-4" id="training">
-    <div class="container d-flex justify-content-center align-items-center mb-4 flex-column">
-      <h1 class="display-5 lh-1 mb-0 h1-mobile mb-4 mt-3 text-white">Détails de la formation</h1>
-      <div class="border-opacity-25 line"></div>
-    </div>
-    <div class=" d-flex justify-content-center align-items-center pt-2 mb-2 sentence">
-      <div class="ms-4  me-4 ">
-        <p class="fst-italic text-white fs-4 text-center">Titre professionnel RNCP 6 <br>Concepteur Développeur d'Applications</p>
+    <div class="container">
+      <div class="d-flex justify-content-center align-items-center mb-4 flex-column">
+        <h1 class="display-5 lh-1 mb-0 h1-mobile mb-4 mt-3 text-white">Détails de la formation</h1>
+        <div class="border-opacity-25 line"></div>
       </div>
-      <div class="d-flex justify-content-center ">
-        <a href="/pdf/Programme_concepteur_développeur_avancé.pdf" target="_blank" class="btn btn-light m-3">Programme de la formation</a>
-        <a href="/pdf/Référentiel_Activités_Compétences_Evaluation_TP_CDA.pdf" download target="_blank" class="btn btn-light m-3">Référentiel du diplôme</a>
+      <div class="d-flex flex-column flex-md-row justify-content-center align-items-center pt-2 mb-2 sentence">
+        <div class="text-center mb-3 mb-md-0">
+          <p class="fst-italic text-white fs-4">Titre professionnel RNCP 6 <br>Concepteur Développeur d'Applications</p>
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-center">
+          <a href="/pdf/Programme_concepteur_développeur_avancé.pdf" target="_blank" class="btn btn-light m-3">Programme de la formation</a>
+          <a href="/pdf/Référentiel_Activités_Compétences_Evaluation_TP_CDA.pdf" download target="_blank" class="btn btn-light m-3">Référentiel du diplôme</a>
+        </div>
       </div>
     </div>
   </div>
+
 
 </template>
 
