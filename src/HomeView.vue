@@ -12,6 +12,7 @@ import ExperiencesComponent from "./components/ExperiencesComponent.vue";
 import ReconversionBannerComponent from "./components/ReconversionBannerComponent.vue";
 import ContactComponent from "./components/ContactComponent.vue";
 import TrainingComponent from "./components/TrainingComponent.vue";
+import FooterComponent from "./components/FooterComponent.vue";
 </script>
 
 
@@ -29,11 +30,8 @@ import TrainingComponent from "./components/TrainingComponent.vue";
   <ExperiencesComponent/>
   <TrainingComponent/>
   <ContactComponent/>
-<!--  contact -->
-<!--  footer-->
-  <div class="div-bottom ">
+ <FooterComponent/>
 
-  </div>
 </template>
 
 
