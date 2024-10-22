@@ -12,7 +12,7 @@ export default {
         <div class="border-opacity-25 line"></div>
       </div>
 
-      <div class="container">
+      <div class="container d-flex justify-content-center">
         <div class="d-flex flex-wrap justify-content-between">
           <div class="box shadow-sm p-3 m-2 project mobile-display">
             <img src="/images/jdrProject.webp" alt="programme JDR">
@@ -30,9 +30,7 @@ export default {
               <h3 class="fw-light mt-3 mobile-button">Jeu de rôle<br> <span class="fst-italic fs-5">Java</span></h3>
               <a class=" mt-1 ms-4 mobile-button" href="https://github.com/Elisa0709/Roll-playing-game/" target="_blank"><img width="48" height="48" src="https://img.icons8.com/material-outlined/48/github.png" alt="logo github"/></a>
             </div>
-
           </div>
-
           <div class="box shadow-sm p-3 m-2 project">
             <img src="/images/portfolio.webp" alt="image e-boutique">
             <div class="hover-overlay d-flex flex-column justify-content-center align-items-center">
@@ -48,7 +46,6 @@ export default {
               <a class=" mt-1 ms-4 mobile-button" href="https://github.com/Elisa0709/Portfolio" target="_blank"><img width="48" height="48" src="https://img.icons8.com/material-outlined/48/github.png" alt="logo github"/></a>
             </div>
           </div>
-
           <div class="box shadow-sm p-3 m-2 project">
             <img src="/images/spirulineShop.webp" alt="Site spiruline">
             <div class="hover-overlay d-flex flex-column justify-content-center align-items-center">
@@ -70,6 +67,24 @@ export default {
               <a class=" mt-1 ms-4 mobile-button" href="https://github.com/Elisa0709/Chifoumi" target="_blank"><img width="48" height="48" src="https://img.icons8.com/material-outlined/48/github.png" alt="logo github"/></a>
             </div>
           </div>
+
+          <div class="box shadow-sm p-3 m-2 project">
+            <img src="/images/dataManipulation.webp" alt="Site spiruline">
+            <div class="hover-overlay d-flex flex-column justify-content-center align-items-center">
+              <h2>Manipulation de données</h2>
+              <p class="text-center pt-3 ps-5 pe-5 fs-5">Projet réalisé dans le cadre de l'apprentissage de JavaScript.
+                Utilisation d'un fichier json, filtrage et tri des résultats.</p>
+              <a href="https://github.com/Elisa0709/DataManipulation/" class="btn mt-4 text-white bgPurpleLight"
+                 target="_blank">
+                Voir sur Github
+              </a>
+            </div>
+            <div class="d-flex justify-content-between align-items-center mobile-button">
+              <h3 class="fw-light mt-3 mobile-button">Data manipulation<br> <span class="fst-italic fs-5">JavaScript vanilla</span></h3>
+              <a class=" mt-1 ms-4 mobile-button" href="https://github.com/Elisa0709/Chifoumi" target="_blank"><img width="48" height="48" src="https://img.icons8.com/material-outlined/48/github.png" alt="logo github"/></a>
+            </div>
+          </div>
+
           <div class="box shadow-sm p-3 m-2 project">
             <img src="/images/chifoumi.webp" alt="site pierre feuille ciseaux">
             <div class="hover-overlay d-flex flex-column justify-content-center align-items-center">
@@ -90,7 +105,6 @@ export default {
               <a class=" mt-1 ms-4 mobile-button" href="https://github.com/Elisa0709/Chifoumi" target="_blank"><img width="48" height="48" src="https://img.icons8.com/material-outlined/48/github.png" alt="logo github"/></a>
             </div>
           </div>
-
           <div class="box shadow-sm p-3 m-2 project">
             <img src="/images/fruitShop.webp" alt="image e-boutique">
             <div class="hover-overlay d-flex flex-column justify-content-center align-items-center">
@@ -106,18 +120,11 @@ export default {
               <a class=" mt-1 ms-4 mobile-button" href="https://github.com/Elisa0709/Fruits-shop" target="_blank"><img width="48" height="48" src="https://img.icons8.com/material-outlined/48/github.png" alt="logo github"/></a>
             </div>
           </div>
-
-
         </div>
       </div>
     </div>
-
-
   </div>
 
-  <!--  -->
-  <!--  ajouter des badges pour identifiers les langages utilisés pour chaque proejts-->
-  <!--  https://getbootstrap.com/docs/5.3/examples/badges/-->
 
 </template>
 
@@ -188,6 +195,24 @@ img {
     display: block; /* Affiche le bouton uniquement sur mobile */
   }
 
+}
+@media (min-width: 769px) {
+  .projectsContainer {
+    width: 100vw; /* Ajuster la largeur globale */
+  }
+  img {
+    width: 100%;
+  }
+  .project {
+    flex: 1 1 calc(40% - 20px); /* 30% de la largeur avec un petit margin */
+    margin: 10px;
+  }
+
+  .d-flex.flex-wrap.justify-content-between {
+    display: flex;
+    flex-wrap: wrap; /* Les projets peuvent s'afficher en ligne */
+    justify-content: space-between;
+  }
 }
 
 </style>
