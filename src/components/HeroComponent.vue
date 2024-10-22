@@ -33,10 +33,10 @@ export default {
 
             <div class="d-flex justify-content-center mt-4">
               <a href="https://github.com/Elisa0709" target="_blank" class="mx-2">
-                <img src="/icons/github.webp" alt="icon Github" class="icon">
+                <img src="/icons/iconGitHub.webp" width="54" alt="icon Github" class="icon">
               </a>
               <a href="https://www.linkedin.com/in/elisa-leroy-6b352a2a9/" target="_blank" class="mx-2">
-                <img src="/icons/linkedin.webp" alt="icon LinkedIn" class="icon">
+                <img src="/icons/linkedin.webp" width="54" alt="icon LinkedIn" class="icon">
               </a>
             </div>
           </div>
