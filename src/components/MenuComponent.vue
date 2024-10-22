@@ -43,6 +43,9 @@ export default {
   background-color: #250839;
   color: white;
 }
+h1, h2, h3, h4, p {
+  font-family: "Titillium Web", sans-serif;
+}
 .mobile-menu{
   display: none;
 }

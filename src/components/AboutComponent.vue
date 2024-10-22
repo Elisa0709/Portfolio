@@ -69,6 +69,13 @@ export default {
                alt="Logo Campus Numérique"  loading="lazy">
         </div>
       </div>
+    <div class="d-flex justify-content-center align-items-center mt-3">
+
+    <!-- Ajoutez ce bouton pour le téléchargement du PDF -->
+    <a href="/pdf/CV_Elisa_Leroy.pdf" download class="btn fs-4 buttonCV mt-4">
+      Télécharger mon CV
+    </a>
+  </div>
     </div>
   </div>
 
@@ -87,6 +94,13 @@ export default {
 }
 h1, h2, p {
   font-family: "Titillium Web", sans-serif;
+}
+.buttonCV{
+  border: none;
+  background-color: white;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  transition: all 0.2s ease-in-out;
+  padding: 10px 20px;
 }
 
 p {

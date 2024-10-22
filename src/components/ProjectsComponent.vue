@@ -136,6 +136,9 @@ export default {
 img {
   width: 30vw;
 }
+h1, h2, h3, h4, p {
+  font-family: "Titillium Web", sans-serif;
+}
 .line {
   width: 10%;
   border-bottom: rgba(37, 8, 57, 0.74) solid 4px;

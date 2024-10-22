@@ -8,12 +8,14 @@ import UpComponent from "./components/UpComponent.vue";
 import MenuComponent from "./components/MenuComponent.vue";
 import SoftSkills from "./components/SoftSkills.vue";
 import PersonnalityComponent from "./components/PersonnalityComponent.vue";
+import ExperiencesComponent from "./components/ExperiencesComponent.vue";
+import ReconversionBannerComponent from "./components/ReconversionBannerComponent.vue";
+import ContactComponent from "./components/ContactComponent.vue";
 </script>
 
 
 
 <template>
-<!--  enlever le hoover du titre en affichage smartphone -->
   <HeroComponent/>
   <MenuComponent/>
   <UpComponent/>
@@ -22,6 +24,11 @@ import PersonnalityComponent from "./components/PersonnalityComponent.vue";
   <SkillsComponent/>
   <PersonnalityComponent/>
   <ProjectsComponent/>
+  <ReconversionBannerComponent/>
+  <ExperiencesComponent/>
+  <ContactComponent/>
+<!--  contact -->
+<!--  footer-->
   <div class="div-bottom ">
 
   </div>

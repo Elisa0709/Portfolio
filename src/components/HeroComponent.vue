@@ -54,7 +54,7 @@ export default {
         <button @click = "scrollToId('projects')" class=" mx-2 shadow-sm"><span class="fs-4">Projets</span></button>
         <button @click = "scrollToId('formation')" class=" mx-2 shadow-sm"><span class="fs-4">Formation</span></button>
         <button @click = "scrollToId('experiences')" class=" mx-2 shadow-sm"><span class="fs-4">Expériences</span></button>
-        <button @click = "scrollToId()" class=" mx-2 shadow-sm"><span class="fs-4">Contact</span></button>
+        <button @click = "scrollToId('contact')" class=" mx-2 shadow-sm"><span class="fs-4">Contact</span></button>
       </div>
     </div>
   </div>
@@ -120,8 +120,6 @@ button {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
   transition: all 0.2s ease-in-out;
   padding: 10px 20px;
-
-
 }
 
 button:hover {
