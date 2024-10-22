@@ -82,22 +82,44 @@ export default {
     <div class="container m-auto line1 d-flex justify-content-center flex-column mb-5 pb-4 shadow-sm rounded-5">
       <h3 class="text-center mt-3">Autres</h3>
       <div class="d-flex flex-wrap justify-content-center">
-        <div class="box  p-3 m-2">
+        <div class="box d-flex justify-content-center flex-column align-items-center p-3 m-2">
           <img width="96" height="96" src="https://img.icons8.com/ios/100/sql.png" alt="logo sql"/>
           <h4 class="text-center">SQL</h4>
         </div>
-
-        <div class="box  p-3 m-2">
+        <div class="box d-flex justify-content-center flex-column align-items-center p-3 m-2">
           <img width="96" height="96" src="https://img.icons8.com/color/96/git.png" alt="logo git"/>
           <h4 class="text-center">Git</h4>
         </div>
-        <div class="box  p-3 m-2">
+        <div class="box d-flex justify-content-center flex-column align-items-center p-3 m-2">
           <img width="96" height="96" src="https://img.icons8.com/material-outlined/96/github.png" alt="logo github"/>
           <h4 class="text-center">Github</h4>
         </div>
-        <div class="box  p-3 m-2">
+        <div class="box d-flex justify-content-center flex-column align-items-center p-3 m-2">
           <img width="96" height="96" src="https://img.icons8.com/fluency/96/docker.png" alt="logo docker"/>
           <h4 class="text-center">Docker</h4>
+        </div>
+
+
+
+        <div class="box d-flex justify-content-center flex-column align-items-center p-3 m-2">
+          <img width="96" height="96" src="https://img.icons8.com/ios-filled/100/lock-2.png" alt="logo cadenas"/>
+          <h4 class="text-center">Sécurité</h4>
+        </div>
+        <div class="box d-flex justify-content-center flex-column align-items-center p-3 m-2">
+          <img width="96" height="96" src="https://img.icons8.com/ios/100/drafting-compass2.png" alt="logo compas"/>
+          <h4 class="text-center">Architecture</h4>
+        </div>
+        <div class="box d-flex justify-content-center flex-column align-items-center p-3 m-2">
+          <img width="96" height="96" src="https://img.icons8.com/fluency/96/management.png" alt="logo management"/>
+          <h4 class="text-center">Gestion de projet</h4>
+        </div>
+        <div class="box d-flex justify-content-center flex-column align-items-center p-3 m-2">
+          <img width="96" height="96" src="https://img.icons8.com/fluency/96/thin-client.png" alt="logo réseaux"/>
+          <h4 class="text-center">Déploiement</h4>
+        </div>
+        <div class="box d-flex justify-content-center flex-column align-items-center p-3 m-2">
+          <img width="96" height="96" src="https://img.icons8.com/fluency/96/sprint-iteration.png" alt="logo sprint-iteration"/>
+          <h4 class="text-center">Agile</h4>
         </div>
       </div>
     </div>
