@@ -11,6 +11,7 @@ import PersonnalityComponent from "./components/PersonnalityComponent.vue";
 import ExperiencesComponent from "./components/ExperiencesComponent.vue";
 import ReconversionBannerComponent from "./components/ReconversionBannerComponent.vue";
 import ContactComponent from "./components/ContactComponent.vue";
+import TrainingComponent from "./components/TrainingComponent.vue";
 </script>
 
 
@@ -26,6 +27,7 @@ import ContactComponent from "./components/ContactComponent.vue";
   <ProjectsComponent/>
   <ReconversionBannerComponent/>
   <ExperiencesComponent/>
+  <TrainingComponent/>
   <ContactComponent/>
 <!--  contact -->
 <!--  footer-->
