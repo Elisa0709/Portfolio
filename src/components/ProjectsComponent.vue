@@ -26,9 +26,9 @@ export default {
                 Voir sur Github
               </a>
             </div>
-            <div class="d-flex justify-content-between align-items-center ">
-              <h3 class="fw-light mt-3 ">Jeu de rôle<br> <span class="fst-italic fs-5">Java</span></h3>
-              <a class="mobile-button mt-1 ms-4" href="https://github.com/Elisa0709/Roll-playing-game/" target="_blank"><img width="48" height="48" src="https://img.icons8.com/material-outlined/48/github.png" alt="logo github"/></a>
+            <div class="d-flex justify-content-between align-items-center mobile-button">
+              <h3 class="fw-light mt-3 mobile-button">Jeu de rôle<br> <span class="fst-italic fs-5">Java</span></h3>
+              <a class=" mt-1 ms-4 mobile-button" href="https://github.com/Elisa0709/Roll-playing-game/" target="_blank"><img width="48" height="48" src="https://img.icons8.com/material-outlined/48/github.png" alt="logo github"/></a>
             </div>
 
           </div>
@@ -43,9 +43,9 @@ export default {
                 Voir sur Github
               </a>
             </div>
-            <div class="d-flex justify-content-between align-items-center ">
-              <h3 class="fw-light mt-3 ">Portfolio<br> <span class="fst-italic fs-5">VueJS</span></h3>
-              <a class="mobile-button mt-1 ms-4" href="https://github.com/Elisa0709/Portfolio" target="_blank"><img width="48" height="48" src="https://img.icons8.com/material-outlined/48/github.png" alt="logo github"/></a>
+            <div class="d-flex justify-content-between align-items-center mobile-button">
+              <h3 class="fw-light mt-3 mobile-button">Portfolio<br> <span class="fst-italic fs-5">VueJS</span></h3>
+              <a class=" mt-1 ms-4 mobile-button" href="https://github.com/Elisa0709/Portfolio" target="_blank"><img width="48" height="48" src="https://img.icons8.com/material-outlined/48/github.png" alt="logo github"/></a>
             </div>
           </div>
 
@@ -65,9 +65,9 @@ export default {
                 Voir le site
               </a>
             </div>
-            <div class="d-flex justify-content-between align-items-center ">
-              <h3 class="fw-light mt-3 ">Spiruline shop<br> <span class="fst-italic fs-5">VueJS</span></h3>
-              <a class="mobile-button mt-1 ms-4" href="https://github.com/Elisa0709/Chifoumi" target="_blank"><img width="48" height="48" src="https://img.icons8.com/material-outlined/48/github.png" alt="logo github"/></a>
+            <div class="d-flex justify-content-between align-items-center mobile-button">
+              <h3 class="fw-light mt-3 mobile-button">Spiruline shop<br> <span class="fst-italic fs-5">VueJS</span></h3>
+              <a class=" mt-1 ms-4 mobile-button" href="https://github.com/Elisa0709/Chifoumi" target="_blank"><img width="48" height="48" src="https://img.icons8.com/material-outlined/48/github.png" alt="logo github"/></a>
             </div>
           </div>
           <div class="box shadow-sm p-3 m-2 project">
@@ -85,9 +85,9 @@ export default {
                 Voir le site
               </a>
             </div>
-            <div class="d-flex justify-content-between align-items-center ">
-              <h3 class="fw-light mt-3 ">Pierre Feuille Ciseaux<br> <span class="fst-italic fs-5">JS & JQuery</span></h3>
-              <a class="mobile-button mt-1 ms-4" href="https://github.com/Elisa0709/Chifoumi" target="_blank"><img width="48" height="48" src="https://img.icons8.com/material-outlined/48/github.png" alt="logo github"/></a>
+            <div class="d-flex justify-content-between align-items-center mobile-button">
+              <h3 class="fw-light mt-3 mobile-button">Pierre Feuille Ciseaux<br> <span class="fst-italic fs-5">JS & JQuery</span></h3>
+              <a class=" mt-1 ms-4 mobile-button" href="https://github.com/Elisa0709/Chifoumi" target="_blank"><img width="48" height="48" src="https://img.icons8.com/material-outlined/48/github.png" alt="logo github"/></a>
             </div>
           </div>
 
@@ -101,9 +101,9 @@ export default {
                 Voir sur Github
               </a>
             </div>
-            <div class="d-flex justify-content-between align-items-center ">
-              <h3 class="fw-light mt-3 ">E-boutique de fruits <br> <span class="fst-italic fs-5">PHP & Laravel</span></h3>
-              <a class="mobile-button mt-1 ms-4" href="https://github.com/Elisa0709/Fruits-shop" target="_blank"><img width="48" height="48" src="https://img.icons8.com/material-outlined/48/github.png" alt="logo github"/></a>
+            <div class="d-flex justify-content-between align-items-center mobile-button">
+              <h3 class="fw-light mt-3 mobile-button">E-boutique de fruits <br> <span class="fst-italic fs-5">PHP & Laravel</span></h3>
+              <a class=" mt-1 ms-4 mobile-button" href="https://github.com/Elisa0709/Fruits-shop" target="_blank"><img width="48" height="48" src="https://img.icons8.com/material-outlined/48/github.png" alt="logo github"/></a>
             </div>
           </div>
 
@@ -156,6 +156,9 @@ img {
 }
 .project:hover .hover-overlay {
   opacity: 1;
+}
+.mobile-button {
+  display: none; /* Affiche le bouton uniquement sur mobile */
 }
 
 @media (max-width: 768px) {
