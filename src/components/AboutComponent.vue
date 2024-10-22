@@ -48,25 +48,25 @@ export default {
                alt="Photo Elisa Leroy" width="80%" loading="lazy">
         </div>
         <div class="col-12 col-md-8 d-flex align-items-center">
-          <p class="text-justify">J'ai entrepris, en avril 2024, une <span>reconversion professionnelle</span> dans
-            le but de me former au titre de Concepteur, Développeur d'Applications au Campus Numérique in the Alps
-            de Grenoble.<br> Apprendre auprès de ce centre de formation me permet d'acquérir de <span>solides
-            compétences</span> et la <span>capacité à m'adapter à différentes technologies.</span>
+          <p class="text-justify">En avril 2024, j'ai commencé une <span class="fw-bold">reconversion professionnelle</span> dans
+            le but de me former au titre de <span class="fw-bold">Concepteur, Développeur d'Applications</span> au Campus Numérique in the Alps
+            de Grenoble.<br> J'ai choisi me former dans le domaine du numérique après avoir fait un bilan de compétence et participé à des ateliers
+            où j'ai rencontré plusieurs acteurs spécialistes du numérique (ESN, développeurs, écoles).
           </p>
         </div>
       </div>
 
       <div ref="div2" class="row pt-4 div2">
         <div class="col-12 col-md-8 order-md-1 order-2 d-flex align-items-center">
-          <p class="text-justify">Apprendre auprès du campus numérique me permet d'acquérir de solides compétences
-            et la capacité à m'adapter à différentes technologies. Dans le but d'approfondir mon apprentissage et de
-            mettre à profit mes compétences déjà acquises, je recherche un contrat d'apprentissage d'une durée de 12
-            mois à partir du début d'année 2025.</p>
+          <p class="text-justify">Apprendre auprès du <a class="link" href="https://le-campus-numerique.fr/" target="_blank">campus numérique</a> me permet d'acquérir de solides <span class="fw-bold">compétences utilisables en entreprise</span>
+            et la capacité à m'adapter à différentes technologies. La pédagogie de cette formation est basée sur deux concepts : <span class="fst-italic">learning to learn</span> et  <span class="fst-italic">learning by doing</span>. Dans le but d'approfondir mon apprentissage et de
+            mettre à profit mes compétences déjà acquises, <span class="fw-bold">je recherche un contrat d'apprentissage d'une durée de 12
+            mois à partir du début d'année 2025.</span></p>
         </div>
         <div class="col-12 col-md-4 order-md-2 order-1">
           <img src="/icons/logo_campusnum_fond-blanc-1024x1024.webp"
                class="d-block mx-lg-auto img-fluid image-center-mobile rounded-4 mobile-img"
-               alt="Logo Campus Numérique" loading="lazy">
+               alt="Logo Campus Numérique"  loading="lazy">
         </div>
       </div>
     </div>
@@ -86,14 +86,18 @@ h1, h2, p {
 }
 
 p {
-  font-size: 150%;
+  font-size: 140%;
   font-weight: 350;
 }
 
 span {
   font-weight: 500;
 }
+.link{
+  color: rgb(37, 8, 57);
+  text-decoration: none;
 
+}
 .text-justify {
   text-align: justify;
 }

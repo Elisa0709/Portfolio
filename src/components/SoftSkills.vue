@@ -13,7 +13,7 @@ export default {
           <p class="ms-2 text-light fs-4">Investie</p>
         </div>
         <div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
-          <p class="ms-2 text-light fs-4">Polyvalente</p>
+          <p class="ms-2 text-light fs-4">Autonome</p>
         </div>
         <div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
           <p class="ms-2 text-light fs-4">Esprit d'équipe</p>
