@@ -21,6 +21,10 @@ export default {
 </template>
 
 <style scoped>
+::selection {
+  background-color: #250839;
+  color: white;
+}
 .fixed-icon {
   position: fixed;
   bottom: 20px;

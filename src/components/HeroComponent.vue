@@ -61,6 +61,10 @@ export default {
 </template>
 
 <style scoped>
+::selection {
+  background-color: #250839;
+  color: white;
+}
 h1, h2, p {
   margin: 0;
   font-family: "Titillium Web", sans-serif;

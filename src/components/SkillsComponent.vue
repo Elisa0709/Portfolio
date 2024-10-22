@@ -145,7 +145,10 @@ h3{
   align-items: center;
 }
 
-
+::selection {
+  background-color: #250839;
+  color: white;
+}
 .line {
   width: 10%;
   border-bottom: rgba(37, 8, 57, 0.74) solid 4px;

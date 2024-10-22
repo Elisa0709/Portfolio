@@ -122,6 +122,10 @@ export default {
 </template>
 
 <style scoped>
+::selection {
+  background-color: #250839;
+  color: white;
+}
 img {
   width: 30vw;
 }

@@ -17,6 +17,10 @@ export default {
 </template>
 
 <style scoped>
+::selection {
+  background-color: #250839;
+  color: white;
+}
 .bgPurple{
   background-color: rgba(37, 8, 57, 0.74);
 }

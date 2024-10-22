@@ -39,6 +39,10 @@ export default {
 </template>
 
 <style scoped>
+::selection {
+  background-color: #250839;
+  color: white;
+}
 .mobile-menu{
   display: none;
 }
