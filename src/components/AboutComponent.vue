@@ -143,6 +143,9 @@ span {
     margin-top: 3%;
 
   }
+  .line {
+    width: 30%; /* Augmente la largeur de la ligne sous le titre pour plus de visibilité sur mobile */
+  }
 
   .text-justify {
     text-align: center;

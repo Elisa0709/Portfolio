@@ -165,5 +165,8 @@ h3{
     width: 100%;
     display: flex;
   }
+  .line {
+    width: 30%; /* Augmente la largeur de la ligne sous le titre pour plus de visibilité sur mobile */
+  }
 }
 </style>

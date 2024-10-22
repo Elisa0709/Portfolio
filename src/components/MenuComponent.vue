@@ -22,7 +22,7 @@ export default {
         Menu
         </button>
       </h2>
-      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
         <div class="accordion-body">
           <div class=" d-flex flex-column align-items-center ">
             <button @click = "scrollToId('about')" type="button" class="btn btn-light mb-2 w-100">À propos</button>
