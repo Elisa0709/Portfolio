@@ -72,7 +72,7 @@ export default {
     <div class="d-flex justify-content-center align-items-center mt-3">
 
     <!-- Ajoutez ce bouton pour le téléchargement du PDF -->
-    <a href="/pdf/CV_Elisa_Leroy.pdf" download class="btn fs-4 buttonCV mt-4">
+    <a href="/pdf/CV_Linkedin_11.2024.pdf" download class="btn fs-4 buttonCV mt-4">
       Télécharger mon CV
     </a>
   </div>

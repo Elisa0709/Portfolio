@@ -13,12 +13,6 @@ export default {
 
   <div class="d-flex justify-content-between align-items-center mt-3">
     <div class="me-5 ms-5 d-flex justify-content-between align-items-center flex-column">
-      <a href="tel:0768408713" class="text-decoration-none">
-        <img class="me-5 ms-5" src="/icons/telephonePurple.png" alt="icon téléphone"/>
-      </a>
-      <p class="text-center mt-2 fs-5">07 68 40 87 13</p>
-    </div>
-    <div class="me-5 ms-5 d-flex justify-content-between align-items-center flex-column">
       <a href="mailto:elisa.leroy0709@gmail.com" class="text-decoration-none">
         <img class="me-5 ms-5" src="/icons/mailPurple.png" alt="icon mail"/>
       </a>
