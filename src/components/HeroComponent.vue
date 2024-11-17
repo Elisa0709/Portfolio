@@ -3,7 +3,6 @@ export default {
   name: "HeroComponent",
   methods: {
     scrollToId(id) {
-      // Si l'élément avec l'ID 'test' est dans un autre composant monté, on peut y accéder directement avec document
       const section = document.getElementById(id);
       if (section) {
         section.scrollIntoView({behavior: 'smooth'});
@@ -16,7 +15,6 @@ export default {
 
 <template>
   <div class="video-container" id="hero">
-    <!-- Vidéo de fond -->
     <video autoplay muted loop class="video-background">
       <source src="/video/heroVideo.mp4" type="video/mp4"/>
       Your browser does not support the video tag.
@@ -33,10 +31,10 @@ export default {
 
             <div class="d-flex justify-content-center mt-4">
               <a href="https://github.com/Elisa0709" target="_blank" class="mx-2">
-                <img src="/icons/iconGitHub.webp" width="54" alt="icon Github" class="icon">
+                <img src="/icons/iconGitHub.webp" width="54" alt="icon Github" class="icon iconHover">
               </a>
               <a href="https://www.linkedin.com/in/elisa-leroy-6b352a2a9/" target="_blank" class="mx-2">
-                <img src="/icons/linkedin.webp" width="54" alt="icon LinkedIn" class="icon">
+                <img src="/icons/linkedin.webp" width="54" alt="icon LinkedIn" class="icon iconHover">
               </a>
             </div>
           </div>
@@ -55,7 +53,6 @@ export default {
         <button @click = "scrollToId('training')" class=" mx-2 shadow-sm"><span class="fs-4">Formation</span></button>
         <button @click = "scrollToId('experiences')" class=" mx-2 shadow-sm"><span class="fs-4">Expériences</span></button>
         <button @click = "scrollToId('training')" class=" mx-2 shadow-sm"><span class="fs-4">Détails de la formation</span></button>
-
         <button @click = "scrollToId('contact')" class=" mx-2 shadow-sm"><span class="fs-4">Contact</span></button>
       </div>
     </div>
@@ -89,9 +86,7 @@ h2 {
   font-size: 3vw;
 }
 
-h2:hover {
-  font-size: 3.5vw;
-}
+
 
 h3 {
   font-size: 2vw;
@@ -136,7 +131,13 @@ button:active {
 
 }
 
-/* Smartphone */
+.iconHover {
+  transition: transform 0.3s ease;
+}
+.iconHover:hover {
+  transform: scale(1.2);
+}
+
 @media (max-width: 768px) {
 
   .icon {

@@ -3,7 +3,6 @@ export default {
   name: "MenuComponent",
   methods: {
     scrollToId(id) {
-      // Si l'élément avec l'ID 'test' est dans un autre composant monté, on peut y accéder directement avec document
       const section = document.getElementById(id);
       if (section) {
         section.scrollIntoView({behavior: 'smooth'});
@@ -52,7 +51,7 @@ h1, h2, h3, h4, p {
 
 @media (max-width: 768px) {
   .mobile-menu {
-    display: block; /* Affiche le composant sur mobile */
+    display: block;
   }
 }
 

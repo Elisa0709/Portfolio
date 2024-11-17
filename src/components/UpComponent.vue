@@ -3,7 +3,6 @@ export default {
   name: "upComponent",
   methods: {
     scrollToId(id) {
-      // Si l'élément avec l'ID 'test' est dans un autre composant monté, on peut y accéder directement avec document
       const section = document.getElementById(id);
       if (section) {
         section.scrollIntoView({behavior: 'smooth'});

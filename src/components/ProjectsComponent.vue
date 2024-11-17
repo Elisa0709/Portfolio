@@ -172,7 +172,7 @@ h1, h2, h3, h4, p {
   opacity: 1;
 }
 .mobile-button {
-  display: none; /* Affiche le bouton uniquement sur mobile */
+  display: none;
 }
 
 @media (max-width: 768px) {
@@ -193,27 +193,25 @@ h1, h2, h3, h4, p {
     opacity: 0 !important;
     pointer-events: none;
   }
-
   .mobile-button {
-    display: block; /* Affiche le bouton uniquement sur mobile */
+    display: block;
   }
-
 }
+
 @media (min-width: 769px) {
   .projectsContainer {
-    width: 100vw; /* Ajuster la largeur globale */
+    width: 100vw;
   }
   img {
     width: 100%;
   }
   .project {
-    flex: 1 1 calc(40% - 20px); /* 30% de la largeur avec un petit margin */
+    flex: 1 1 calc(40% - 20px);
     margin: 10px;
   }
-
   .d-flex.flex-wrap.justify-content-between {
     display: flex;
-    flex-wrap: wrap; /* Les projets peuvent s'afficher en ligne */
+    flex-wrap: wrap;
     justify-content: space-between;
   }
 }

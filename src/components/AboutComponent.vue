@@ -14,8 +14,6 @@ export default {
       if (this.$refs.div1 && this.$refs.div2) {
         observer.observe(this.$refs.div1);
         observer.observe(this.$refs.div2);
-      } else {
-        console.error("Les divs ne sont pas trouvées !");
       }
     }
   },
@@ -24,10 +22,7 @@ export default {
     handleIntersect(entries) {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          console.log(`Intersection détectée sur :`, entry.target);
           entry.target.classList.add('div-visible');
-        } else {
-          console.log("Hors de la vue :", entry.target);
         }
       });
     }
@@ -71,7 +66,6 @@ export default {
       </div>
     <div class="d-flex justify-content-center align-items-center mt-3">
 
-    <!-- Ajoutez ce bouton pour le téléchargement du PDF -->
     <a href="/pdf/CV_Elisa_Leroy.pdf" download class="btn fs-4 buttonCV mt-4">
       Télécharger mon CV
     </a>

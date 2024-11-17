@@ -3,7 +3,7 @@ export default {
   name: "SkillsComponent",
   data() {
     return {
-      // Définir les données du composant ici
+
     };
   },
 
