@@ -27,8 +27,9 @@ export default {
             <button @click = "scrollToId('about')" type="button" class="btn btn-light mb-2 w-100">À propos</button>
             <button @click = "scrollToId('skills')" type="button" class="btn btn-light mb-2 w-100">Compétences</button>
             <button @click = "scrollToId('projects')" type="button" class="btn btn-light mb-2 w-100">Projets</button>
+            <button @click = "scrollToId('training')" class="btn btn-light mb-2 w-100">Formation</button>
+            <button @click = "scrollToId('experiences')" class="btn btn-light mb-2 w-100">Expériences</button>
             <button @click = "scrollToId()" type="button" class="btn btn-light mb-2 w-100">Contact</button>
-
           </div>
         </div>
       </div>

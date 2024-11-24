@@ -9,7 +9,7 @@ name: "TrainingComponent"
   <div class="bgPurple pt-4 pb-4 mt-4" id="training">
     <div class="container">
       <div class="d-flex justify-content-center align-items-center mb-4 flex-column">
-        <h1 class="display-5 lh-1 mb-0 h1-mobile mb-4 mt-3 text-white">Détails de la formation</h1>
+        <h2 class="display-5 lh-1 mb-0 h1-mobile mb-4 mt-3 text-white">Détails de la formation</h2>
         <div class="border-opacity-25 line"></div>
       </div>
       <div class="d-flex flex-column flex-md-row justify-content-center align-items-center pt-2 mb-2 sentence">

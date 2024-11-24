@@ -8,7 +8,7 @@ export default {
   <div class="d-flex justify-content-center align-items-center">
     <div id="projects" class="projectsContainer">
       <div class="container mb-5 d-flex justify-content-center align-items-center flex-column">
-        <h1 class="display-5 lh-1 mb-0 h1-mobile mb-4 pt-5">Mes projets</h1>
+        <h2 class="display-5 lh-1 mb-0 h1-mobile mb-4 pt-5">Mes projets</h2>
         <div class="border-opacity-25 line"></div>
       </div>
 

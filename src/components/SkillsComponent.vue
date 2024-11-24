@@ -14,7 +14,7 @@ export default {
   <div class="skillsContainer m-auto flex-column" id="skills">
 
     <div class="container mb-5 d-flex justify-content-center align-items-center flex-column">
-      <h1 class="display-5 lh-1 mb-0 h1-mobile mb-4  pt-5">Compétences</h1>
+      <h2 class="display-5 lh-1 mb-0 h1-mobile mb-4  pt-5">Compétences</h2>
       <div class="border-opacity-25 line"></div>
       <p class="pt-4 fs-4 fst-italic sousTitre">Listes des compétences acquises à l'issue de la formation.</p>
 

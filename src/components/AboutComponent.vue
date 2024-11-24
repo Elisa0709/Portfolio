@@ -33,7 +33,7 @@ export default {
 
 <template>
   <div class="mt-5 mb-5" id="about">
-    <h1 class="display-5 lh-1 mb-0 h1-mobile mb-4 text-center">Qui suis-je ?</h1>
+    <h2 class="display-5 lh-1 mb-0 h1-mobile mb-4 text-center">Qui suis-je ?</h2>
     <div class="border-opacity-25 line"></div>
 
     <div class="container aboutContainer mx-auto mt-5">
