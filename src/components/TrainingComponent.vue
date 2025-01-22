@@ -14,13 +14,20 @@ name: "TrainingComponent"
       </div>
       <div class="d-flex flex-column flex-md-row justify-content-center align-items-center pt-2 mb-2 sentence">
         <div class="text-center mb-3 mb-md-0">
-          <p class="fst-italic text-white fs-4">Titre professionnel RNCP 6 <br>Concepteur Développeur d'Applications</p>
+          <p class="fst-italic text-white fs-4">Titre professionnel RNCP 6 <br>Concepteur Développeur d'Applications
+            <br> 04/2024 - 02/2026</p>
         </div>
         <div class="d-flex flex-column flex-md-row justify-content-center">
           <a href="/pdf/Programme_concepteur_développeur_avancé.pdf" target="_blank" class="btn btn-light m-3">Programme de la formation</a>
           <a href="/pdf/Référentiel_Activités_Compétences_Evaluation_TP_CDA.pdf" download target="_blank" class="btn btn-light m-3">Référentiel du diplôme</a>
         </div>
       </div>
+    </div>
+    <div class="pt-2 mb-2">
+      <p class="text-white fs-5 text-center">Concevoir et développer une application sécurisée organisée en
+        couches</p>
+      <p class="text-white fs-5 text-center">Architecture, gestion de projets, méthode Agile</p>
+      <p class="text-white fs-5 text-center">Préparer le déploiement d’une application sécurisée</p>
     </div>
   </div>
 

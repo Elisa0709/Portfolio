@@ -50,8 +50,8 @@ export default {
         <button @click = "scrollToId('about')" class=" mx-2 shadow-sm"><span class="fs-4">À propos</span></button>
         <button @click = "scrollToId('skills')" class=" mx-2 shadow-sm"><span class="fs-4">Compétences</span></button>
         <button @click = "scrollToId('projects')" class=" mx-2 shadow-sm"><span class="fs-4">Projets</span></button>
-        <button @click = "scrollToId('training')" class=" mx-2 shadow-sm"><span class="fs-4">Formation</span></button>
         <button @click = "scrollToId('experiences')" class=" mx-2 shadow-sm"><span class="fs-4">Expériences</span></button>
+        <button @click = "scrollToId('training')" class=" mx-2 shadow-sm"><span class="fs-4">Formation</span></button>
         <button @click = "scrollToId('contact')" class=" mx-2 shadow-sm"><span class="fs-4">Contact</span></button>
       </div>
     </div>
