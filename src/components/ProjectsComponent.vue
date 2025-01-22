@@ -14,7 +14,9 @@ export default {
 
       <div class="container d-flex justify-content-center">
         <div class="d-flex flex-wrap justify-content-between">
-          <div class="box shadow-sm p-3 m-2 project mobile-display">
+
+<!--          Laisser le jdr -->
+          <div class="box shadow-sm p-3 m-2 project ">
             <img src="/images/jdrProject.webp" alt="programme JDR">
             <div class="hover-overlay d-flex flex-column justify-content-center align-items-center">
               <h2>Jeu de rôle</h2>
@@ -31,6 +33,41 @@ export default {
               <a class=" mt-1 ms-4 mobile-button" href="https://github.com/Elisa0709/Roll-playing-game/" target="_blank"><img width="48" height="48" src="https://img.icons8.com/material-outlined/48/github.png" alt="logo github"/></a>
             </div>
           </div>
+
+          <!--          Mettre square game API-->
+          <div class="box shadow-sm p-3 m-2 project ">
+            <img src="/images/api_square_game.webp" alt="programme JDR">
+            <div class="hover-overlay d-flex flex-column justify-content-center align-items-center">
+              <h2>API square games</h2>
+              <p class="text-center pt-3 ps-5 pe-5 fs-5">API rest Spring Boot - permet d'envoyer et d'accéder à des information à une librairie privée. </p>
+              <a href="https://github.com/Elisa0709/Square-game_API" class="btn mt-4 text-white bgPurpleLight"
+                 target="_blank" rel="noopener noreferrer">
+                Voir sur Github
+              </a>
+            </div>
+            <div class="d-flex justify-content-between align-items-center mobile-button">
+              <h3 class="fw-light mt-3 mobile-button">API square games<br> <span class="fst-italic fs-5">Java</span></h3>
+              <a class=" mt-1 ms-4 mobile-button" href="https://github.com/Elisa0709/Square-game_API" target="_blank"><img width="48" height="48" src="https://img.icons8.com/material-outlined/48/github.png" alt="logo github"/></a>
+            </div>
+          </div>
+
+          <!--          Mettre square game-->
+          <div class="box shadow-sm p-3 m-2 project ">
+            <img src="/images/ticTacToe.webp" alt="programme JDR">
+            <div class="hover-overlay d-flex flex-column justify-content-center align-items-center">
+              <h2>Square games application</h2>
+              <p class="text-center pt-3 ps-5 pe-5 fs-5">Jeux de tic tac toe et gomoku. Projet réalisé dans le cadre de l'apprentissage de Java et suivant le design MVC. <br> </p>
+              <a href="https://github.com/Elisa0709/BoardGame_application" class="btn mt-4 text-white bgPurpleLight"
+              target="_blank" rel="noopener noreferrer">
+                Voir sur Github
+              </a>
+            </div>
+            <div class="d-flex justify-content-between align-items-center mobile-button">
+              <h3 class="fw-light mt-3 mobile-button">Square games application<br> <span class="fst-italic fs-5">Java</span></h3>
+              <a class=" mt-1 ms-4 mobile-button" href="https://github.com/Elisa0709/BoardGame_application" target="_blank"><img width="48" height="48" src="https://img.icons8.com/material-outlined/48/github.png" alt="logo github"/></a>
+            </div>
+          </div>
+
           <div class="box shadow-sm p-3 m-2 project">
             <img src="/images/portfolio.webp" alt="image e-boutique">
             <div class="hover-overlay d-flex flex-column justify-content-center align-items-center">
@@ -46,6 +83,7 @@ export default {
               <a class=" mt-1 ms-4 mobile-button" href="https://github.com/Elisa0709/Portfolio" target="_blank"><img width="48" height="48" src="https://img.icons8.com/material-outlined/48/github.png" alt="logo github"/></a>
             </div>
           </div>
+
           <div class="box shadow-sm p-3 m-2 project">
             <img src="/images/spirulineShop.webp" alt="Site spiruline">
             <div class="hover-overlay d-flex flex-column justify-content-center align-items-center">
@@ -105,6 +143,7 @@ export default {
               <a class=" mt-1 ms-4 mobile-button" href="https://github.com/Elisa0709/Chifoumi" target="_blank"><img width="48" height="48" src="https://img.icons8.com/material-outlined/48/github.png" alt="logo github"/></a>
             </div>
           </div>
+
           <div class="box shadow-sm p-3 m-2 project">
             <img src="/images/fruitShop.webp" alt="image e-boutique">
             <div class="hover-overlay d-flex flex-column justify-content-center align-items-center">
