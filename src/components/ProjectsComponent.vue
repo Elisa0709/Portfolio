@@ -46,7 +46,7 @@ export default {
               </a>
             </div>
             <div class="d-flex justify-content-between align-items-center mobile-button">
-              <h3 class="fw-light mt-3 mobile-button">API square games<br> <span class="fst-italic fs-5">Java</span></h3>
+              <h3 class="fw-light mt-3 mobile-button">API square games<br> <span class="fst-italic fs-5">Java Spring Boot</span></h3>
               <a class=" mt-1 ms-4 mobile-button" href="https://github.com/Elisa0709/Square-game_API" target="_blank"><img width="48" height="48" src="https://img.icons8.com/material-outlined/48/github.png" alt="logo github"/></a>
             </div>
           </div>
@@ -63,7 +63,7 @@ export default {
               </a>
             </div>
             <div class="d-flex justify-content-between align-items-center mobile-button">
-              <h3 class="fw-light mt-3 mobile-button">Square games application<br> <span class="fst-italic fs-5">Java</span></h3>
+              <h3 class="fw-light mt-3 mobile-button">Square games application<br> <span class="fst-italic fs-5">Java Spring Boot</span></h3>
               <a class=" mt-1 ms-4 mobile-button" href="https://github.com/Elisa0709/BoardGame_application" target="_blank"><img width="48" height="48" src="https://img.icons8.com/material-outlined/48/github.png" alt="logo github"/></a>
             </div>
           </div>
