@@ -39,8 +39,8 @@ export default {
     <div class="container aboutContainer mx-auto mt-5">
       <div ref="div1" class="row div1">
         <div class="col-12 col-md-4">
-          <img src="/images/profil.webp" class="d-block mx-lg-auto img-fluid image-center-mobile rounded-4 mobile-img"
-               alt="Photo Elisa Leroy" width="80%" loading="lazy">
+          <img src="/images/profil.png" class="d-block mx-lg-auto img-fluid image-center-mobile rounded-4 mobile-img"
+               alt="Photo Elisa Leroy" width="95%" loading="lazy">
         </div>
         <div class="col-12 col-md-8 d-flex align-items-center">
           <p class="text-justify">En avril 2024, j'ai commencé une <span class="fw-bold">reconversion professionnelle</span> dans
