@@ -39,7 +39,7 @@ export default {
             <img src="/images/api_square_game.webp" alt="programme JDR">
             <div class="hover-overlay d-flex flex-column justify-content-center align-items-center">
               <h2>API square games</h2>
-              <p class="text-center pt-3 ps-5 pe-5 fs-5">API rest Spring Boot - permet d'envoyer et d'accéder à des information à une librairie privée. </p>
+              <p class="text-center pt-3 ps-5 pe-5 fs-5">API rest Spring Boot - permet d'envoyer et d'accéder aux des informations d'une librairie privée. </p>
               <a href="https://github.com/Elisa0709/Square-game_API" class="btn mt-4 text-white bgPurpleLight"
                  target="_blank" rel="noopener noreferrer">
                 Voir sur Github
